@@ -7,6 +7,7 @@ ng-model
 {{}}
 ng-repeat
 filters
-General Overview of Services and Directives
-ng-show (Not in Video)
+Services/Factory
+Directives
+ng-show 
 ng-click

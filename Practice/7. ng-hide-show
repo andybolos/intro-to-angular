@@ -2,7 +2,7 @@
 
 $scope.isAdmin = false;
 
-<div>
+<div data-ng-hide="!isAdmin">
 	<a href="win">Click here for super powers</a>
 </div>
 
@@ -32,7 +32,7 @@ $scope.danceFloor = ['charles'];
 
 $scope.isAdmin = true;
 
-<div>
+<div data-ng-show="isAdmin">
 	<a href="win">Click here for super powers</a>
 </div>
 
