@@ -2,7 +2,7 @@
 
 $scope.isAdmin = false;
 
-<div>
+<div ng-hide="!isAdmin">
 	<a href="win">Click here for super powers</a>
 </div>
 
@@ -16,7 +16,7 @@ $scope.danceFLoor = [];
 	<li ng-repeat="hater in hemanWomanHatersClub">{{member}}</li>
 </ul>
 
-***************************************************** 
+*****************************************************
 
 // Hide this element when you have someone on the dance floor
 
@@ -26,13 +26,13 @@ $scope.danceFloor = ['charles'];
 	<button ng-click="deleteAll()">Delete the dance floor</button>
 </div>
 
-***************************************************** 
+*****************************************************
 
 //Show this element when isAdmin is true
 
 $scope.isAdmin = true;
 
-<div>
+<div ng-show="isAdmin">
 	<a href="win">Click here for super powers</a>
 </div>
 
@@ -46,7 +46,7 @@ $scope.danceFLoor = ['chad'];
 	<li ng-repeat="hater in hemanWomanHatersClub">{{member}}</li>
 </ul>
 
-***************************************************** 
+*****************************************************
 
 // Show this element when you have someone on the dance floor
 

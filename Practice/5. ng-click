@@ -1,15 +1,17 @@
 //call a function named open when this button is pressed
 
-<button>Open</button>
+<button ng-click="open()">Open</button>
 
-$scope.
+$scope.open = function () {
+
+}
 
 
 *****************************************************
 
 //call a function called more when this link is pressed
 
-<a href="#">More</a>
+<a href="#" >More</a>
 
 $scope.
 
